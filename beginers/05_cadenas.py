@@ -128,10 +128,53 @@ la_intencio = mi_cadena[-11:]
 print(la_intencio)
 
 '''
+invertir una cadena, peculiaridad del lenguaje
+hay muchas mas pero te dejo el resto a ti y a la docu
+'''
+sentido = 'hola mundo'
+sentido_inverso = sentido[::-1]
+print(sentido, sentido_inverso, sep=' y le damos la vuelta ')
+
+'''
 acabas de ver que se pueden usar numeros negativos en los indices.
 En python podemos usar valores negativos para indicar que vamos a empezar en orden inverso,
 algo asi como de atras a adelante, te dejo un enlace a la docu oficial en el README
 '''
 
+'''
+vamos a ver algunas funciones destinadas solo a las cadenas
+'''
+# definimos nuestra variable para trabajar con los metodos de las cadenas
+el_util = 'hola mundo'
+
+print(el_util.capitalize())
+print(el_util.count('o'))
+print(el_util.index('a'))
+print(el_util.find('z'))
+print(el_util.title())
+que_tenemos = el_util.split(' ')
+print(que_tenemos)
+print(el_util.replace('o', '8===D'))
+
+
+
+
+
+'''
+format string y literales formateados
+'''
+
+# format string
+my_number,my_name  = 2, 'adri'
+print('mi edad es {} y mi nombre es {}'.format(my_number,my_name))
+
+formated_str = 'mi edad es %d y mi nombre es %s' %(my_number,my_name)
+
+print(formated_str)
+
+# literales formateados
+my_name = 'adriel'
+
+print(f'mi nombre es {my_name}')
 
 
