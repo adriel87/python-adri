@@ -30,3 +30,4 @@ ambos son numero pero uno es un entero y otro del tipo float
 y para datos booleanos
 '''
 print(type(1 == 1), 'aqui tenemos la expresion')
+
