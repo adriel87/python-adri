@@ -57,7 +57,7 @@ en caso de que no se cumpla la condicion
 
 if a > 4:
     print('hello world')
-elif a === 3:
+elif a == 3:
     print(f'exactly is {a}')
 # podemos usar elif las veces que necesitemos despues del if y antes del else
 else:
@@ -101,3 +101,8 @@ else:
 dentro de las condiciones podemos hacer uso de los operadores logicos
 que vimos en el archivo de operadores
 '''
+
+if a > 1 and a <5 or a == 3:
+    print('is between')
+
+
