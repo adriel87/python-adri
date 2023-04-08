@@ -94,7 +94,7 @@ def cooking(receta_function, chef):
     receta_function()
     return chef + ' well donde'
 
-def recipe_of_paela(arroz_bomba, garrofo, conejo, pollo):
-    print(f'{arroz_bomba} mas {garrofo} con {conejo} y {pollo}')
+def recipe_of_paela():
+    print('arroz_bomba mas garrofo con conejo y pollo')
 
-cooking(recipe_of_paela('vita','garrofi', 'tu madre', 'popeye'), 'Trompa')
+cooking(recipe_of_paela, 'Trompa')
