@@ -2,3 +2,4 @@
 .vscode/settings.json
 advance/24_file_handling/*
 .gitignore
+advance/flask_project/*
